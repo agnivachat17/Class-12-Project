@@ -1,3 +1,15 @@
+/**
+Write a program to accept a sentence as input. The words in the string are to be separated by a
+blank. Each word must be in upper case. The sentence is terminated by either “.”,”!” or “?”. Perform the
+following tasks:
+(i) Obtain the length of the sentence. (Measured in words)
+(ii) Arrange the sentence in alphabetical order of the words.
+Test your program with the sample data and some random data:
+Example 1:
+INPUT: NECESSITY IS THE MOTHER OF INVENTION.
+OUTPUT:
+Length: 6
+*/
 import java.util.Scanner;
 class LexographicalOrder
 {
