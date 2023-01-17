@@ -1,3 +1,22 @@
+/**
+Develop a program that reads an arithmetic expression written in English, such as
+NINE PLUS SEVEN
+and that outputs the number that is the result of evaluating the expression.
+More precisely, the input will be a one-digit number, written as a word in upper case letters, followed by a
+space, followed by one of the words &quot;PLUS&quot;, &quot;MINUS&quot;, &quot;TIMES&quot;, or &quot;DIVIDED-BY&quot;, followed by a space,
+followed by another one-digit number, written as a word in upper case letters.
+Here, &quot;DIVIDED-BY&quot; means integer division. (Example: 8 divided by 3 is 2.) The spellings for one-digit
+numbers are as follows: &quot;ZERO&quot;, &quot;ONE&quot;, &quot;TWO&quot;, &quot;THREE&quot;, &quot;FOUR&quot;, &quot;FIVE&quot;, &quot;SIX&quot;, &quot;SEVEN&quot;,
+&quot;EIGHT&quot;, and &quot;NINE&quot;. You may assume that no input expression will call for division by zero. Your program
+should repeat until the user enters an expression that evaluates to zero.
+Sample Program Execution:
+Input:
+NINE PLUS FOUR
+Result: 13
+Input: FIVE MINUS SEVEN
+
+Result: -2
+*/
 import java.util.*;
 public class ArithmeticExpression
 {
