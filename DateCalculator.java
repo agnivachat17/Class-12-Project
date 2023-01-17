@@ -1,3 +1,16 @@
+/*
+Design a program to accept a day number (between 1 and 366), 
+year (in 4 digits) from the user to generate and display the corresponding date. 
+Also accept 'N' (1<=N<=100) from the user to compute and display the future date 
+corresponding to 'N' days after the generated date. Display error message if the value of the day number, 
+year and N are not within the limit or not according to the condition specified. Test your program for the 
+following data and some random data. 
+Example: 
+INPUT : DAY NUMBER : 233 YEAR : 2008 DATE AFTER(N) : 17 
+OUTPUT: 20TH AUGUST 2008 DATE AFTER 17 DAYS : 6TH SEPTEMBER 2008 
+INPUT : DAY NUMBER : 360 YEAR : 2008 DATE AFTER(N) : 45 
+OUTPUT: 25TH DECEMBER 2008 DATE AFTER 45 DAYS : 8TH FEBRUARY 2009
+*/
 import java.util.Scanner;
 public class DateCalculator
 {
