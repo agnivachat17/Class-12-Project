@@ -1,3 +1,31 @@
+/**
+Input a paragraph containing ‘n’ number of sentences where (1 = &lt; n &lt; 4). The words are to be separated with
+a single blank space and are in UPPERCASE. A sentence may be terminated either with a full stop ‘.’ Or a
+question mark ‘?’ only. Any other character may be ignored. Perform the following operations:
+(i) Accept the number of sentences. If the number of sentences exceeds the limit, an appropriate error message
+must be displayed.
+(ii) Find the number of words in the whole paragraph
+(iii) Display the words in ascending order of their frequency. Words with same frequency may appear in any
+order.
+Example 1
+INPUT: Enter number of sentences.
+1
+Enter sentences.
+TO BE OR NOT TO BE.
+OUTPUT:
+
+Total number of words: 6
+WORD FREQUENCY
+OR 1
+NOT 1
+TO 2
+BE 2
+Example 3
+INPUT : Enter number of sentences
+5
+OUTPUT:
+INVALID ENTRY
+*/
 import java.util.*;
 public class Frequency
 {
