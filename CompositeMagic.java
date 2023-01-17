@@ -1,3 +1,19 @@
+/*
+A Composite Magic number is a positive integer which is composite as well as a magic number.
+Composite number : A composite number is a number which has more than 2 factors. For example : 10 Factors
+are : 1,2,5,10. Magic number : A magic number is a number in which the eventual sum of the digits is equal to
+1. For example:- 28 = 2+ 8 =10 = 1+0=1 Accept 2 positive integers m and n, where m is less than n as user input.
+Display the number of composite magic integers that are in the range between m and n (both inclusive) and
+output them along with the frequency, in the format specified below. Test your program with the sample data
+and some random data:
+Example 1:
+INPUT:
+m=10
+n=100
+OUTPUT:
+THE COMPOSITE MAGIC INTEGERS ARE : 10,28,46,55,64,82,91,100
+FREQUENCY OF COMPOSITE MAGIC INTEGERS IS :8
+*/
 import java.util.*;
 public class CompositeMagic
 {
