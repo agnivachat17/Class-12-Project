@@ -1,3 +1,25 @@
+/**
+Write a program to declare a square matrix A[ ] [ ] of order (M x M) where ‘M’ is the number
+of rows and the number of columns such that M must be greater than 2 and less than 20. Allow the user to
+input integers into this matrix. Display appropriate error message for an invalid input. Perform the following
+tasks: (a) Display the input matrix. (b) Create a mirror image matrix. (c) Display the mirror image matrix.
+Test your program with the sample data and some random data:
+Example 1
+
+INPUT : M = 3
+4 16 12
+8 2 14
+4 1 3
+OUTPUT :
+ORIGINAL MATRIX
+4 16 12
+8 2 14
+4 1 3
+MIRROR IMAGE MATRIX
+12 16 4
+14 2 8
+3 1 6
+*/
 import java.util.*;
 class Matrix
 {
