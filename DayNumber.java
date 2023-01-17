@@ -1,3 +1,32 @@
+/**
+Design a program which accepts your date of birth in dd mm yyyy format. Check whether the date
+entered is valid or not. If it is valid, display “VALID DATE”, also compute and display the day number of the
+year for the date of birth. If it is invalid, display “INVALID DATE” and then terminate the program.
+Test your program for the given sample data and some random data.
+Input:
+Enter your date of birth in dd mm yyyy format
+05
+01
+2010
+Output:
+VALID DATE
+5
+Input:
+Enter your date of birth in dd mm yyyy format
+03
+04
+2010
+Output:
+VALID DATE
+93
+Input:
+Enter your date of birth in dd mm yyyy format
+34
+06
+2010
+Output:
+INVALID DATE
+*/
 import java.util.*;
 class DayNumber
 {
